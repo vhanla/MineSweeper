@@ -1,0 +1,135 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 676
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 654.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    ColumnCollection = <
+      item
+        SizeStyle = Auto
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 11.111111111111110000
+      end
+      item
+        Value = 11.111111111111110000
+      end
+      item
+        Value = 11.111111111111110000
+      end
+      item
+        Value = 11.111111111111110000
+      end
+      item
+        Value = 11.111111111111110000
+      end
+      item
+        Value = 11.111111111111110000
+      end
+      item
+        Value = 11.111111111111110000
+      end
+      item
+        Value = 11.111111111111110000
+      end
+      item
+        Value = 11.111111111111110000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Row = 0
+      end
+      item
+        Column = 0
+        Row = 0
+      end
+      item
+        Column = 0
+        Row = 0
+      end
+      item
+        Column = 0
+        Row = 0
+      end
+      item
+        Column = 0
+        Row = 0
+      end
+      item
+        Column = 0
+        Row = 0
+      end
+      item
+        Column = 0
+        Row = 0
+      end
+      item
+        Column = 0
+        Row = 0
+      end
+      item
+        Column = 0
+        Row = 0
+      end
+      item
+        Column = 0
+        Row = 0
+      end>
+    RowCollection = <
+      item
+        SizeStyle = Auto
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 11.111111111111110000
+      end
+      item
+        Value = 11.111111111111110000
+      end
+      item
+        Value = 11.111111111111110000
+      end
+      item
+        Value = 11.111111111111110000
+      end
+      item
+        Value = 11.111111111111110000
+      end
+      item
+        Value = 11.111111111111110000
+      end
+      item
+        Value = 11.111111111111110000
+      end
+      item
+        Value = 11.111111111111110000
+      end
+      item
+        Value = 11.111111111111110000
+      end>
+  end
+  object Button1: TButton
+    Align = Bottom
+    Position.Y = 654.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Button1'
+    TextSettings.Trimming = None
+    OnClick = Button1Click
+  end
+end
